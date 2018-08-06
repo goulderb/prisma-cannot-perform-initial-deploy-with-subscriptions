@@ -1,0 +1,6 @@
+endpoint: http://localhost:4467
+datamodel: datamodel.graphql
+subscriptions:
+  users:
+    query: user-subscription.graphql
+    webhook: http://ptsv2.com/t/bgoulder-prisma-test/post

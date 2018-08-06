@@ -1,0 +1,7 @@
+subscription {
+  users {
+    node {
+      id
+    }
+  }
+}
